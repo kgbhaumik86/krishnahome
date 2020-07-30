@@ -15,11 +15,11 @@ export default class Header extends Component {
                         <img src={process.env.PUBLIC_URL + "/assets/img/Kgb-Profile.jpg"} alt="" className="img-fluid rounded-circle" />
                             <h1 className="text-light"><a href="#hero">Krishna Gopal Bhaumik</a></h1>
                             <div className="social-links mt-3 text-center">
-                                <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-                                <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                                <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                                <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-                                <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                                <a href="https://twitter.com/flute_krishna" className="twitter"><i className="bx bxl-twitter"></i></a>
+                                <a href="https://www.facebook.com/krishna.flute" className="facebook"><i className="bx bxl-facebook"></i></a>
+                                <a href="https://www.instagram.com/?hl=en" className="instagram"><i className="bx bxl-instagram"></i></a>
+                                {/* <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a> */}
+                                <a href="https://www.linkedin.com/in/krishna-bhaumik-94152b67/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                             </div>
                         </div>
 
