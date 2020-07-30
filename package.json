@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kgbhaumik86.github.io/kgbportfolio3",
+  "homepage": "http://kgbhaumik86.github.io/krishnahome",
   "name": "kgbportfolio3",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +7,28 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "cors": "^2.8.5",
+    "emailjs-com": "^2.6.3",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "owl.carousel": "^2.3.4",
+    "rc-progress": "^3.0.0",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-iframe": "^1.8.0",
+    "react-owl-carousel": "^2.3.1",
+    "react-scripts": "3.4.1",
+    "react-scroll-button": "^1.1.2",
+    "react-scroll-up": "^1.3.3",
+    "react-scroll-up-button": "^1.6.4",
+    "react-scrollspy": "^3.4.3",
+    "react-toastify": "^6.0.8",
+    "react-typed": "^1.2.0",
+    "toastr": "^2.1.4",
+    "typed.js": "^2.0.11"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -33,5 +52,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgbhaumik86/kgbportfolio3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgbhaumik86/kgbportfolio3/issues"
   }
 }
