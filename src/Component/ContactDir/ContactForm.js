@@ -12,7 +12,7 @@ export default class ContactForm extends Component {
             name: '',
             email: '',
             subject: '',
-            message: '',
+            message: '',            
             errors: {
                 name: '',
                 email: '',
@@ -21,6 +21,7 @@ export default class ContactForm extends Component {
             }
         }
     }
+    
     handleInputChange(event){
         event.preventDefault();
         const target = event.target
@@ -71,7 +72,7 @@ export default class ContactForm extends Component {
             return
         }
         
-        const { name, email, message, subject } = this.state
+        const { name, email, message, subject,  } = this.state
         let templateParams = {
             name: name,
             email: email,

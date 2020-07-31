@@ -38,7 +38,7 @@ export default class Contact extends Component {
                                     frameborder="0"
                                     style="border:0"
                                     width="100%"
-                                    height="290px"
+                                    height="200px"
                                     id="myId"
                                     className="myClassname"
                                     display="initial"
