@@ -1083,8 +1083,8 @@ section {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
-  width: 91.75%;
-  height: 80%;
+  width: 89%;
+  height: 77%;
   background: rgba(155, 235, 255, 0.9);
   align-items: center;
   justify-content: center;
@@ -1108,7 +1108,8 @@ section {
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-weight: 400;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
@@ -1127,6 +1128,7 @@ section {
     opacity: 0;
     transition: opacity ease-in-out 0.25s;
   }
+  
 }
 /* Changes for MODAL */
 /* .modal-90w { 

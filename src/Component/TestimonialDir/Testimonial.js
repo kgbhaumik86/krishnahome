@@ -4,6 +4,22 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 export default class Testimonial extends Component {
+    state= {
+        responsive:{
+            0: {
+                items: 1,
+            },
+            450: {
+                items: 1,
+            },
+            600: {
+                items: 1,
+            },
+            1000: {
+                items: 2,
+            },
+        },
+    }
     render() {
         return (
             <section id="testimonials" class="testimonials section-bg">
@@ -19,7 +35,8 @@ export default class Testimonial extends Component {
                             margin={10}
                             smartSpeed
                             autoplay
-                        >
+                            items = {2}
+                            responsive={this.state.responsive}>
                             <div class="item">
                                 <div class="testimonial-item" data-aos="fade-up">
                                     <p>

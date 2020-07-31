@@ -54,7 +54,7 @@ export default class Portfolio extends Component {
                     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
                         {
                             PortfolioInfo.map((index) =>
-                                <div class={index.filterClass}>
+                                <div class={index.filterClass} style={{ 'padding-top': '3%' }}>
                                     <a className="portfolio-link" data-toggle="modal" onClick={this.handleShow.bind(this,index)}>
                                         <div className="portfolio-hover">
                                             <div className="portfolio-hover-content"><i className="fa fa-plus fa-3x"></i></div>
