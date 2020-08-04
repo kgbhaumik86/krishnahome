@@ -12,7 +12,7 @@ export default class Hero extends Component {
                          {/* <span class="typed" data-typed-items="Designer, Designer, Freelancer, Photographer"></span> */}                        
                         <span class="typed">                        
                         <Typed                            
-                            strings={["I'm SharePoint Developer", "I'm PowerShell Expertise", "I'm Web Developer","I'm Flutist"]}
+                            strings={["I'm SharePoint Developer", "I'm PowerShell Expert", "I'm Web Developer","I'm Flutist"]}
                             typeSpeed={100}
                             backSpeed={50}
                             backDelay={1}
